@@ -6,8 +6,7 @@ export const Info = () => {
         <>
             <main className={infoStyles.container}>
                 <section className={infoStyles.description}>
-                    <h1>this is the info section</h1>
-                    <p>Hi, I'm a developer, <br/> designer, <br/> creative technologist, <br/> who loves creating for people.</p>
+                    <p className={infoStyles.text}>Hi, I'm a developer, <br/> designer, <br/> creative technologist, <br/> who loves creating for people.</p>
                 </section>
 
                 <section className={infoStyles.links}>
