@@ -1,8 +1,9 @@
 import { useState } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import { Header } from './components/Header/Header'
+import { Home } from './components/Home/Home'
 import { Info } from './components/Info/Info'
-import { Main } from './components/Main/Main'
+
 
 function App() {
 
@@ -10,7 +11,7 @@ function App() {
     <>
     <Routes>
         <Route path='/' element={<Header />}>
-          <Route index element={<Main />}/>
+          <Route index element={<Home />}/>
         </Route>
     </Routes>
     </>
