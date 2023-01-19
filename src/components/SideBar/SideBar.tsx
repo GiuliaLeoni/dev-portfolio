@@ -1,5 +1,10 @@
+import sideBarStyles from './sideBar.module.scss';
+
 export const SideBar = () => {
     return (
-        <h1>sidebar</h1>
+        <section className={sideBarStyles.container}>
+            <button>mode</button>
+            <button>party</button>
+        </section>
     )
 }

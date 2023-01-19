@@ -1,11 +1,14 @@
-import { Info } from "../Info/Info"
-import { ProjectsList } from "../ProjectsList/ProjectsList"
+import { Info } from "../Info/Info";
+import { ProjectsList } from "../ProjectsList/ProjectsList";
+import mainStyles from './main.module.scss';
 
 export const Main = () => {
     return (
         <>
-            <Info />
-            <ProjectsList />
+            <section className={mainStyles.container}>
+                <Info />
+                <ProjectsList />
+            </section>
         </>
     )
 }

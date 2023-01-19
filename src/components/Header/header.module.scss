@@ -1,7 +1,13 @@
+@import '../../assets/variables';
+
 .main {
     width: 100%;
+    z-index: 2;
+    top: 0;
     display: flex;
     justify-content: center;
+    position: fixed;
+    background-color: $bgcolor;
 }
 
 .container {
@@ -11,4 +17,8 @@
     justify-content: space-between;
     padding-top: 40px;
     align-items: center;
+}
+
+.text {
+    font-weight: lighter;
 }
