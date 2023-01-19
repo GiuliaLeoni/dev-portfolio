@@ -6,7 +6,7 @@ export const ProjectsList = () => {
         <>
         <main className={projectListStyles.container}>
             <section className={projectListStyles.title}>
-                <h1>Projects</h1>
+                <h1 className={projectListStyles.title}>Projects</h1>
             </section>
             <section className={projectListStyles.list}>
                 <Project />

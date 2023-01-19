@@ -1,26 +1,54 @@
+@import '../../assets/variables';
+
 .container {
-    width: 80%;
+    width: 80vw;
     display: flex;
     flex-direction: column;
-    padding: 100px 50px 0 50px;
-    background-color: aquamarine;
+    margin: 12rem 2rem 0 2rem;
+    padding: 0px 50px 0 50px;
+    // background-color: aquamarine;
+}
+
+.text {
+     font-size: 3rem;
+     font-family: map-get($map: $font-stack, $key: inter);
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
 }
 
 .links {
     display: flex;
     flex-direction: column;
-    // background-color: bisque;
     margin: 20px 0 0 0;
     padding: 10px 0 10px 0;
 }
 
-.text {
-     font-size: 1.5rem;
-}
-
 .links a {
     text-decoration: none;
-    color: black;
     cursor: pointer;
+}
+
+span {
+    color: $secondary-color;
+    font-size: 3rem;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    line-height: 4rem;
+}
+
+
+
+.interactiveText {
+    padding-top: 0.1rem;
+    p {
+        font-size: 3rem;
+    }
 }
 
