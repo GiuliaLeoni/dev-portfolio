@@ -4,9 +4,10 @@
     width: 80vw;
     display: flex;
     flex-direction: column;
-    margin: 12rem 2rem 0 2rem;
-    padding: 0px 50px 0 50px;
-    // background-color: aquamarine;
+    // margin: 12rem 2rem 0 2rem;
+    margin: 12rem 0 0 0;
+    padding: 0px 3rem 0 3rem;
+    background-color: aquamarine;
 }
 
 .text {
@@ -25,11 +26,15 @@
     flex-direction: column;
     margin: 20px 0 0 0;
     padding: 10px 0 10px 0;
-}
-
-.links a {
-    text-decoration: none;
-    cursor: pointer;
+    a {
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .link {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+    }
 }
 
 span {
@@ -51,9 +56,9 @@ p {
 }
 
 .arrow {
-    width: 5rem;
+    width: 85%;
     height: 4px;
-    background-color: black;
+    background-color: $secondary-color;
     position: relative;
     border-radius: 4px;
 }
@@ -61,13 +66,13 @@ p {
 .arrow::after {
     content: "";
     display: inline-block;
-    width: 40px;
+    width: 15px;
     height: 4px;
-    background-color: black;
+    background-color: $secondary-color;
     transform: rotate(45deg);
     position: absolute;
     right: -6px;
-    bottom:  13px;
+    bottom:  4px;
     border-radius: 4px;
 
 }
@@ -75,13 +80,13 @@ p {
 .arrow::before {
     content: "";
     display: inline-block;
-    width: 40px;
+    width: 15px;
     height: 4px;
-    background-color: black;
+    background-color: $secondary-color;
     transform: rotate(-45deg);
     position: absolute;
     right: -6px;
-    bottom:  -13px;
+    bottom:  -4px;
     border-radius: 4px;
 
 }

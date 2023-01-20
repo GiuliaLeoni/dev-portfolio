@@ -20,17 +20,20 @@ export const Info = () => {
                 </section>
 
                 <section className={infoStyles.links}>
-                    <section>
+                    <section className={infoStyles.link}>
+                        <section className={infoStyles.arrow}></section>
                         <Link to='/about'>about me</Link>
                     </section>
-                    <section>
+                    <section className={infoStyles.link}>
                         <section className={infoStyles.arrow}></section>
                         <a href="https://github.com/GiuliaLeoni" target="_blank">Github</a> 
                     </section>
-                    <section>
+                    <section className={infoStyles.link}>
+                    <section className={infoStyles.arrow}></section>
                         <a href="https://www.linkedin.com/in/g-leoni/" target="_blank">Linkedin</a>
                     </section>
-                    <section>
+                    <section className={infoStyles.link}>
+                    <section className={infoStyles.arrow}></section>
                         <a href="/">leonig255@gmail.com</a>
                     </section>
                 </section>
