@@ -1,7 +1,13 @@
 @import '../../assets/variables';
 
-
 .title {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    // background-color: burlywood;
+}
+
+.titleText {
     font-family: map-get($map: $font-stack, $key: secular-one);
     // font-size: 7rem;
     font-size: clamp(3.5rem, 7vw + 0.5rem, 7rem);
