@@ -9,7 +9,6 @@ export const Info = () => {
         <>
             <main className={infoStyles.container}>
                 <Description />
-                <Links />
             </main>
         </>
         

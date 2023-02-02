@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom'
-import { Arrow } from '../Arrow/Arrow'
 import linksStyles from './links.module.scss'
 
 export const Links = () => {
@@ -8,7 +7,7 @@ export const Links = () => {
             <section className={linksStyles.linksSection}>
                 
                 <section>
-                    <h3>projects</h3>
+                    <h3 className={linksStyles.projects}>projects</h3>
                     <span>arrow</span>
                 </section>
 

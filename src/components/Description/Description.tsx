@@ -17,7 +17,7 @@ export const Description = () => {
                    style={{paddingTop: '1.3rem'}}/>
                 </section>
         
-                   <h4>who finds <strong>joy</strong> in the challenge of <strong>creating for people</strong></h4>
+                   <h4>who finds <strong className={descrStyles.sub}>joy</strong> in the challenge of <strong className={descrStyles.sub}>creating for people</strong></h4>
                    <p>
                         <strong>Graduate designer </strong>
                         - currently

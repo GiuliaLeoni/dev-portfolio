@@ -3,7 +3,11 @@
 $bgcolor: #E38C67;
 $secondary-color: #FFF96B;
 
-$textcolor: white;
+$textcolor: (
+    primary: white,
+    secondary: rgba(255, 255, 255, 0.629)
+);
+
 $font-stack: (
     secular-one: ('Secular One', sans-serif),
     inter: ('Inter', sans-serif)
