@@ -14,34 +14,18 @@ export const Links = () => {
         <>
             <section className={linksStyles.linksSection}>
                 
-                <section>
-                    <h3 className={linksStyles.projects}>projects</h3>
+                <section className={linksStyles.projects}>
+                    <h3 className={linksStyles.projectText}>projects</h3>
                     {/* <span>arrow</span> */}
                     <Arrow />
                 </section>
 
-
-                {/* <section className={linksStyles.links}>
-                    <section className={linksStyles.link}>   
-                        <Link to='/about'>about me</Link>
-                    </section>
-                    <section className={linksStyles.link}>
-                        <a href="https://github.com/GiuliaLeoni" target="_blank">Github</a> 
-                    </section>
-                    <section className={linksStyles.link}>
-                        <a href="https://www.linkedin.com/in/g-leoni/" target="_blank">Linkedin</a>
-                    </section>
-                    <section className={linksStyles.link}>
-                        <a href="/">leonig255@gmail.com</a>
-                    </section>
-                </section> */}
-
                 <section className={linksStyles.links}>
                     {/* <img src="linkedin" alt="linkedin"/> */}
-                    <LinkedIn />
-                    <Github />
-                    <Cv />
-                    <Email />
+                    <section style={{marginBottom: '0.8rem'}}><LinkedIn /></section>
+                    <section style={{marginBottom: '0.8rem'}}><Github /></section>
+                    <section style={{marginBottom: '0.8rem'}}><Cv /></section>
+                    <section><Email /></section>
                 </section>
 
             </section>
