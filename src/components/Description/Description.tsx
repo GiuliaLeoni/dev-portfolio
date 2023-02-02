@@ -17,9 +17,17 @@ export const Description = () => {
                    style={{paddingTop: '1.3rem'}}/>
                 </section>
         
-                   <h4>who finds joy in the challenge of creating for people</h4>
-                   <p>Graduate designer - currently Full-Stack Designer Intern @ Autone
-Interested in interaction and designing and building outstanding user experiences</p>
+                   <h4>who finds <strong>joy</strong> in the challenge of <strong>creating for people</strong></h4>
+                   <p>
+                        <strong>Graduate designer </strong>
+                        - currently
+                        <strong> Full-Stack Designer Intern @ Autone</strong>
+                        <br /> 
+                        Interested in 
+                        <strong> interaction </strong>
+                        and designing and building
+                        <strong> outstanding user experiences</strong>
+                    </p>
             </section>
         </>
     )
