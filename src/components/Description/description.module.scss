@@ -18,6 +18,7 @@
 .icon {
     color: $secondary-color;
     font-size: clamp(1rem, 3vw + 0.6rem, 3rem);
+    cursor: pointer;
 }
 
 h4, p {
