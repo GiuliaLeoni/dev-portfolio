@@ -1,0 +1,30 @@
+@import '../../assets/variables';
+
+.text {
+     font-size: 3rem;
+     font-family: map-get($map: $font-stack, $key: inter);
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+span {
+    color: $secondary-color;
+    font-size: 3rem;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    line-height: 4rem;
+}
+
+.interactiveText {
+    padding-top: 0.1rem;
+    p {
+        font-size: 3rem;
+    }
+}
