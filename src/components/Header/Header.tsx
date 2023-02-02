@@ -6,7 +6,7 @@ export const Header = () => {
         <>
             <main className={headerStyles.main}>
                 <section className={headerStyles.container}>
-                    <h3 className={headerStyles.text}>GIULIA LEONI</h3>
+                    <h3 className={headerStyles.text}>Giulia Leoni (ɔ◔‿◔)ɔ ♥</h3>
                 </section>
             </main>
 

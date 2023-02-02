@@ -22,9 +22,9 @@ export const Links = () => {
 
                 <section className={linksStyles.links}>
                     {/* <img src="linkedin" alt="linkedin"/> */}
-                    <section style={{marginBottom: '0.8rem'}}><LinkedIn /></section>
-                    <section style={{marginBottom: '0.8rem'}}><Github /></section>
-                    <section style={{marginBottom: '0.8rem'}}><Cv /></section>
+                    <section style={{marginBottom: '1.2rem'}}><LinkedIn /></section>
+                    <section style={{marginBottom: '1.2rem'}}><Github /></section>
+                    <section style={{marginBottom: '1.2rem'}}><Cv /></section>
                     <section><Email /></section>
                 </section>
 

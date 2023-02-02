@@ -7,7 +7,9 @@
     align-items: flex-end;
     width: 100%;
     margin: 20px 0 0 0;
-    padding: 10px 0 10px 0;
+    padding: 2rem 2rem 3rem 1rem;
+    position:fixed;
+    bottom: 0;
     // background-color: aquamarine;
     a {
         text-decoration: none;
@@ -22,9 +24,12 @@
 
 .projects {
     // background-color: violet;
+    // color: $secondary-color
 }
 
 .projectText {
     font-weight: lighter;
     transform: translate(-1.1rem, -2rem) rotate(90deg);
+    color: map-get($map: $textcolor, $key: secondary);
+    // color: $secondary-color;
 }
