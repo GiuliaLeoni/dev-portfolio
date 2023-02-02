@@ -32,12 +32,19 @@ p, strong {
     color: map-get($map: $textcolor, $key: primary);
 }
 
-
-
 .text {
-     font-size: 3rem;
-     font-family: map-get($map: $font-stack, $key: inter);
+    margin-top: 2rem;
+    line-height: 1.8rem;
+    font-weight: lighter;
 }
+
+
+//////////
+
+// .text {
+//      font-size: 3rem;
+//      font-family: map-get($map: $font-stack, $key: inter);
+// }
 
 .top {
     display: flex;

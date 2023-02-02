@@ -18,7 +18,7 @@ export const Description = () => {
                 </section>
         
                    <h4>who finds <strong className={descrStyles.sub}>joy</strong> in the challenge of <strong className={descrStyles.sub}>creating for people</strong></h4>
-                   <p>
+                   <p className={descrStyles.text}>
                         <strong>Graduate designer </strong>
                         - currently
                         <strong> Full-Stack Designer Intern @ Autone</strong>
