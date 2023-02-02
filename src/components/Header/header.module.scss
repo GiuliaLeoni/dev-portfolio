@@ -21,6 +21,11 @@
 }
 
 .text {
+    font-family: map-get($map: $font-stack, $key: inter);
     font-weight: lighter;
     cursor: pointer;
+}
+
+h4 {
+    font-weight: lighter;
 }

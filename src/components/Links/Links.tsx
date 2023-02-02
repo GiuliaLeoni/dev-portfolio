@@ -6,13 +6,12 @@ export const Links = () => {
     return (
         <>
             <section className={linksStyles.linksSection}>
-
-                <section className={linksStyles.arrows}>
-                    <Arrow />
-                    <Arrow />
-                    <Arrow />
-                    <Arrow />
+                
+                <section>
+                    <h3>projects</h3>
+                    <span>arrow</span>
                 </section>
+
 
                 <section className={linksStyles.links}>
                     <section className={linksStyles.link}>   

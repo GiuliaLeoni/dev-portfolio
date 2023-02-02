@@ -1,5 +1,13 @@
 @import '../../assets/variables';
 
+
+.title {
+    font-family: map-get($map: $font-stack, $key: secular-one);
+    // font-size: 7rem;
+    font-size: clamp(3.5rem, 7vw + 0.5rem, 7rem);
+    line-height: 7rem;
+}
+
 .text {
      font-size: 3rem;
      font-family: map-get($map: $font-stack, $key: inter);

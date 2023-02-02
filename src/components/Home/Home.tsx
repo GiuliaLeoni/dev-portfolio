@@ -1,3 +1,4 @@
+import { Test } from "../../test";
 import { Info } from "../Info/Info"
 import { Main } from "../Main/Main";
 import { ProjectsList } from "../ProjectsList/ProjectsList";
@@ -8,9 +9,9 @@ export const Home = () => {
     return (
         <>
             <main className={homeStyles.container}>
-                <SideBar />
                 <Main />
             </main>
+            {/* <Test /> */}
         </> 
     )
 }
