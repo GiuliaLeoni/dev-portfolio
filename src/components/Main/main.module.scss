@@ -1,8 +1,6 @@
 .container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    // background-color: lightgreen;
+    overflow: hidden;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    background-color: antiquewhite;
 }

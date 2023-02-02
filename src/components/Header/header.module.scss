@@ -1,25 +1,26 @@
-.container {
+@import '../../assets/variables';
+
+.main {
     width: 100%;
+    z-index: 2;
+    top: 0;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    background-color: $bgcolor;
+}
+
+.container {
+    width: 90%;
     display: flex;
     flex-direction: row;
-    // justify-content: space-between; 
-    justify-content: center;
-    padding: 10px;
-    padding-top: 30px;
+    justify-content: space-between;
+    padding-top: 40px;
     align-items: center;
-    // background-color: lightcoral;
 }
 
-.btns {
-    display: flex;
-    gap: 1rem;
-    margin-left: auto;
-    // background-color: aquamarine;
-}
-
-.name {
-    margin-left: 45%;
-    align-self: center;
-    font-size: 2rem;
-    // background-color: lightcyan;
+.text {
+    font-weight: lighter;
+    cursor: pointer;
 }
